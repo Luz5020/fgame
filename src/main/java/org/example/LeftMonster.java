@@ -29,7 +29,7 @@ public class LeftMonster implements Monster {
     /**
      * This method is used to subtick the monster
      *
-     * @throws PlayerDeathException
+     * @throws PlayerDeathException if the player dies
      */
     @Override
     public void subtick() throws PlayerDeathException {
@@ -39,7 +39,7 @@ public class LeftMonster implements Monster {
     /**
      * This method is used to move the monster
      *
-     * @throws PlayerDeathException
+     * @throws PlayerDeathException if the player dies
      */
     @Override
     public void mo() throws PlayerDeathException {

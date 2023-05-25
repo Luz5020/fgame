@@ -7,7 +7,7 @@ public interface Monster {
     /**
      * This method is used to move the monster
      *
-     * @throws PlayerDeathException
+     * @throws PlayerDeathException if the player dies
      */
 
     void mo() throws PlayerDeathException;
